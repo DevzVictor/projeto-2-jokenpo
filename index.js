@@ -61,7 +61,7 @@ primeiro: while (true) {
         console.log(`\n  [→→ O JOGO EMPATOU ←←]`);
       }
       // Validação da escolha se o jogador quer continuar ou não jogando.
-      quarto: while (true) {
+      terceiro: while (true) {
         let jogadorDenovo = prompt(
           `Deseja jogar denovo [s] para SIM [n] para NÃO: `
         ).toLowerCase();
@@ -75,7 +75,7 @@ primeiro: while (true) {
           break primeiro;
         } else {
           console.log("Entrada invalida - repita por favor");
-          continue quarto;
+          continue terceiro;
         }
       }
     }
